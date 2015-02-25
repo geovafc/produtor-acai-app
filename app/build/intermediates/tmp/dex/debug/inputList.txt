@@ -1,0 +1,7 @@
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/classes/debug
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48-8a639833da49656d59cd633170c2839ce62fcb54.jar
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/com.android.volley-2015.02.02-f55224afbcec4d46b2f16bece4e7243bfcc70de7.jar
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/gson-2.3.1-9540a2118a5dc8a23253511d1f0e80db992afa46.jar
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48-6a9d20ff5c06573dfbe06d117cff31308d63a8fe.jar
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/classes-7710cb877f51d566922fa992cdbfffd4314c18c1.jar
+/home/geovane/AndroidStudioProjects/AmazonGoldws1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-cdb07d1b39990ad93e6e980a50f3b2dddf38abc8.jar

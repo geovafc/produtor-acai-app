@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    tools:context="com.br.amazongold.activity.local.EditarLocal" >
+
+    <!-- Quando cadastrar o local, já pega as coordenas automaticamente -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="Localidade"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editarLocalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complemento"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editarComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editarLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:numeric="decimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editarLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:numeric="decimal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrarLocal"
+        android:text="Salvar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="marcarCoordenada"
+        android:text="Localizar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="excluirLocal"
+        android:text="Excluir" />
+
+</LinearLayout>

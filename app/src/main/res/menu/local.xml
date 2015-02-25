@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+ <!-- showAsAction define a visibilidade do item de acao. ifRoom 
+ exibe o icone se tiver espaço na tela.
+ -->
+    <item android:id="@+id/action_pesquisa"
+          android:icon="@drawable/ic_action_search"
+          android:title="Pesquisar"
+          android:showAsAction="ifRoom"/>
+     
+    <!-- Location Found -->
+    <item android:id="@+id/action_localizacao_encontrada"
+          android:icon="@drawable/ic_action_location_found"
+          android:title="Marcar Localização"
+          android:showAsAction="ifRoom" />
+     
+
+     
+
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amazongold"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+            <!--android:noHistory="true" retira aquela activity da pilha no momento em que ocorrer mudança de activity -->
+        <activity
+            android:name="com.br.amazongold.activity.publico.Login"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.local.LocalActivity"
+            android:label="@string/title_activity_local" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.produto.CadastroProduto"
+            android:label="@string/title_activity_produtor" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.produtor.InicioActivity"
+            android:label="@string/title_activity_inicio" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <action android:name="Inicio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.colheita.CadastroColheita"
+            android:label="@string/title_activity_colheita" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.local.CadastroLocal"
+            android:label="@string/title_activity_cadastro_local" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.local.ListaLocal"
+            android:label="@string/title_activity_listar_local" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.local.EditarLocal"
+            android:label="@string/title_activity_editar_local" >
+            <intent-filter>
+                <action android:name="EdicaoLocal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.colheita.ListaColheita"
+            android:label="@string/title_activity_listar_colheita" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.colheita.EditarColheita"
+            android:label="@string/title_activity_editar_colheita" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.rasa.CadastroRasa"
+            android:label="@string/title_activity_cadastro_rasa" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.rasa.ListaRasa"
+            android:label="@string/title_activity_lista_rasa" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.rasa.EditarRasa"
+            android:label="@string/title_activity_editar_rasa" >
+        </activity>
+        <activity
+            android:name="com.br.amazongold.activity.produto.ListaProduto"
+            android:label="@string/title_activity_lista_produto" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.amazongold.InicioActivity" >
+
+    <item
+        android:id="@+id/nova_area"
+        android:title="Nova Área Colheita"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/listar_area"
+        android:title="Listar Área Colheita"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/preencher_rasas"
+        android:title="Preencher Rasas"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/listar_rasas_preenchidas"
+        android:title="Listar Rasas Preenchidas"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nova_colheita"
+        android:title="Nova Colheita"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/listar_colheita"
+        android:title="Listar Colheita"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nova_rasa"
+        android:title="Nova Rasa"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/listar_rasa"
+        android:title="Listar Rasa"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/enviar_dados"
+        android:title="Enviar Dados"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sair"
+        android:title="Sair"
+        app:showAsAction="never"
+        />
+
+
+</menu>

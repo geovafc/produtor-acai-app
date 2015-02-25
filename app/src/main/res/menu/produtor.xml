@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.amazongold.ProdutorActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/novo"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="always"
+        android:title="Novo Produto"/>
+
+    <!-- Location Found -->
+    <item
+        android:id="@+id/editar"       
+        android:showAsAction="always"
+        android:title="Editar"/>
+    <item
+        android:id="@+id/excluir"
+      
+        android:showAsAction="always"
+        android:title="Excluir"/>
+
+</menu>
